@@ -1,0 +1,42 @@
+.container {
+  max-width: 980px;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+body {
+  font-size: 1.125rem;
+}
+
+.col-2 {
+  flex: 2;
+  /* border: 2px solid springgreen; */
+}
+
+.col-3 {
+  flex: 3;
+  /* border: 2px solid springgreen; */
+}
+
+.col-5 {
+  flex: 5;
+  /* border: 2px solid springgreen; */
+}
+
+.columns {
+  display: flex;
+  margin: 2% auto;
+}
+
+.light-on-dark {
+  background-color: #312614;
+  color: #fff
+}
