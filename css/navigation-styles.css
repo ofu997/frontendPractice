@@ -38,7 +38,7 @@ header {
   padding: 2em 0;
 }
 
-@media all and (max-width: 675px){
+@media (max-width: 675px){
   .container-nav {
     flex-direction: column;
   }
@@ -89,6 +89,6 @@ nav a:hover, nav a:focus {
     flex-direction: column;
   }
   nav li {
-    margin: .5em 0p 
+    margin: 0.5em 0;
   }
 }
